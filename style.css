@@ -24,18 +24,21 @@ i:hover{
     background-size: cover !important;
     background: url(/img/bg-showcase-1.jpg) no-repeat center center;
     padding: 150px 0;
+    height: 480px !important;
 }
   
 .bg-cover2{
     background-size: cover !important;
     background: url(/img/bg-showcase-2.jpg) no-repeat center center;
     padding: 150px 0;
+    height: 480px !important;
 }
   
 .bg-cover3{
     background-size: cover !important;
     background: url(/img/bg-showcase-3.jpg) no-repeat center center;
     padding: 150px 0;
+    height: 480px !important;
 }
   
 .bg-img-f{
