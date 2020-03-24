@@ -8421,6 +8421,14 @@ button.bg-dark:focus {
   padding-left: 3rem !important;
 }
 
+.pt-7{
+  padding-top: 6rem;
+}
+
+.circle-mxw{
+  max-width: 200px !important;
+}
+
 .m-n1 {
   margin: -0.25rem !important;
 }
