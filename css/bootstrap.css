@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -54,7 +54,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family:'Lato', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -134,10 +134,6 @@ strong {
 
 small {
   font-size: 80%;
-}
-
-.lato{
-  font-family: 'Lato', sans-serif;
 }
 
 sub,
@@ -366,10 +362,6 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
 }
 
-.h7{
-  font-size: 48px;
-  font-weight: 700;
-}
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -484,41 +476,6 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
-}
-
-.bg-img{
-  position: relative;
-  background: url(/img/bg-masthead.jpg)no-repeat center center;
-  background-size: cover;
-  padding: 150px 0;
-}
-
-.bg-cover{
-  background-size: cover !important;
-  background: url(/img/bg-showcase-1.jpg) no-repeat center center;
-  padding: 150px 0;
-}
-
-.bg-cover2{
-  background-size: cover !important;
-  background: url(/img/bg-showcase-2.jpg) no-repeat center center;
-  padding: 150px 0;
-}
-
-.bg-cover3{
-  background-size: cover !important;
-  background: url(/img/bg-showcase-3.jpg) no-repeat center center;
-  padding: 150px 0;
-}
-
-.bg-img-f{
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.4;
 }
 
 .img-thumbnail {
@@ -2555,20 +2512,6 @@ textarea.form-control {
   }
 }
 
-.pointer{
-  cursor: pointer;
-}
-
-a:hover{
-  
-  color: #0056b3 !important;
-  text-decoration: underline !important;
-  cursor: pointer;
-}
-
-i:hover{
-  color: #0056b3 !important;
-}
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -4464,10 +4407,6 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
-.icon-lg{
-  font-size: 70px;
-}
-
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
@@ -6297,9 +6236,6 @@ a.close.disabled {
   text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
-}
-.lh{
- line-height: 1.5;
 }
 
 .popover {
@@ -8451,14 +8387,6 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
-}
-
-.pt-7{
-  padding-top: 6rem;
-}
-
-.circle-mxw{
-  max-width: 200px !important;
 }
 
 .m-n1 {
