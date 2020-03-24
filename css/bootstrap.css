@@ -6266,6 +6266,9 @@ a.close.disabled {
   background-color: #000;
   border-radius: 0.25rem;
 }
+.lh{
+ line-height: 1.5;
+}
 
 .popover {
   position: absolute;
